@@ -4,7 +4,7 @@
 
 To train a single-decoder model, use base_trainer.py:
 ```bash
-python base_train.py \
+python base_trainer.py \
     --train-path=path-to-the-training-csv-file \
     --val-path=path-to-the-validation-csv-file \
     --model-str=t5-small \
